@@ -12,7 +12,7 @@
         border-radius: 10px;
         box-shadow: 3px 3px 3px rgba(0,0,0,0.7);
         position: relative; //yazılar kaymasın her yazı kendi kartında kalsın diye verdik
-        overflow: hidden;
+        overflow: hidden; // taşan yazıların gizlenmesi
         &:hover .card-over{
             transform: translateY(0%);
         }
@@ -44,7 +44,7 @@
     left: 0;
     transform: translateY(100%);
     z-index: 1;
-    transition: transform .7s ease-in-out;
+    transition: transform .7s ease-in-out; // yazıların yavaş şekilde yukarı çıkması için 
 }
 }
 
